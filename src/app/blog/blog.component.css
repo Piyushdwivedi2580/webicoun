@@ -1,0 +1,163 @@
+.bg-header {
+    height: 205px;
+    /* background-image: url(.//ssets/images/logo.png); */
+    background-repeat: no-repeat;
+    background-position: 50% -20px;
+    background-size: 2000px auto;
+}
+
+.Blogheader {
+    text-align: center;
+    margin-top: 11px;
+
+}
+ 
+.banner-container {
+    padding: 12px;
+}
+.banner-side-contant {
+    border: 1px solid black;
+}
+.Bl-img  {
+    border-radius: 100%;
+    overflow: hidden;
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+}
+.Bl-img img {
+    padding: 2px;
+    transform: translateY(10px)translate(3px);
+
+}
+.bloggername p {
+    font-family: 'Lobster';
+    margin-top: 2px;
+    margin-left: 0px;
+    color: #1118ec;
+}
+.blog-date {
+    margin-top: -18px!important;
+    margin-bottom: -12px;
+    margin-left: -104px;
+    color: #9e9fa0!important;
+    font-family: inherit!important;
+    font-size: 12px;
+}
+.bg-blog {
+    padding: 13px 3px 10px 18px;
+    background-image: linear-gradient(to right,#f5fafe,#d6f0fd);
+    margin-left: unset!important;
+    margin-right: unset!important;
+}
+.bl-list {
+    padding: 12px;
+}
+ 
+
+.nav-toggle, .morelink {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: .8em;
+    letter-spacing: .1em;
+    outline: 0;
+    color: dodgerblue;
+}
+.remaining-content span {
+    display:none;
+}
+
+.expandable {
+      transition: height 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 150ms;
+}
+
+.main-celebration-bl{
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+.blogimage img  {
+    width: 274px;
+    border-radius: 8px;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+    height: 160px;
+}
+.main-celebration-bl {
+    /* max-width: 262px; */
+    width: 100%;
+    height: 364px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.08);
+    border: solid 1px #e5e5e5;
+    background-color: #ffffff;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+.main-celebration-bl .image-field {
+    /*width: 272px;*/
+    cursor: pointer;
+}
+.main-celebration-bl .image-field .main-image {
+    width: 537px;
+    border-radius: 8px;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+    height: 260px;
+}
+.main-celebration-bl .blogtitle {
+    font-family: "Open Sans";
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.53;
+    padding: 10px;
+    color: #000000;
+}
+.main-celebration-bl .description-field {
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 1.43;
+    color: #666666;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.viewall-latestblog .btn {
+    background-image: linear-gradient(to right,#e9f4fd,#bbe8ff);
+    font-size: 19px;
+    border-radius: 5px;
+}
+@media(min-width: 400px) and (max-width: 767px){
+    .Blogheader img {
+    width: 160px;
+}
+}
+@media (max-width: 400px){
+    .Blogheader img {
+    width: 117px;
+    margin-left: 12px;
+}
+}
+@media (max-width: 764px){
+    .main-celebration-bl .image-field {
+     width: unset; 
+}
+.main-celebration-bl {
+    max-width: unset;
+     height: unset; 
+     margin-bottom: 10px; 
+}
+.main-celebration-bl .image-field .main-image {
+    width: 762px;
+    height: 177px;
+}
+}
+.Date-field {
+    position: absolute;
+    top: 277px;
+    right: 22px;
+}
